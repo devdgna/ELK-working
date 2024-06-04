@@ -45,7 +45,7 @@ services:
       # Change this to true if you want to sent
       # telemetry data to kibana developers
       - TELEMETRY_ENABLED=false
-      - XPACK_ENCRYPTEDSAVEDOBJECTS_ENCRYPTIONKEY=sAgfzW9LfclupfvOA8bG0aYNZGigmF8Tve7
+      - XPACK_ENCRYPTEDSAVEDOBJECTS_ENCRYPTIONKEY=sAgfzW9LfclupfvOA8bG0aYNZGigmFfhgjhkk
 
   logstash:
     image: docker.elastic.co/logstash/logstash:${STACK_VERSION}
